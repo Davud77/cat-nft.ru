@@ -1,0 +1,102 @@
+/* ------ video ------ */
+
+.video_box {
+    width: 100%;
+    margin: 0;
+    min-height: 100vh;    
+}
+
+
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+    position: absolute;
+    width: 100%;
+    max-height: 100vh;
+}
+
+/* Add some content at the bottom of the video/page */
+.content {
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+}
+
+/* Style the button used to pause/play the video */
+#myBtn {
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: #915C12;
+    color: #fff;
+    cursor: pointer;
+}
+
+#myBtn:hover {
+    background: #fff;
+    color: black;
+}
+
+.content_button > li {
+    display: inline-block;
+}
+
+.Btn {
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: #915C12;
+    color: #fff;
+    cursor: pointer;
+}
+
+.Btn > a {
+    color: #fff;
+}
+
+.Btn:hover {
+    background: black;
+}
+
+.button_en {
+    width: 60px;
+    font-size: 14px;
+    padding: 10px;
+    border: none;
+    background: #915C12;
+    color: #fff;
+    cursor: pointer;
+}
+
+.button_en > a {
+    color: #fff;
+}
+
+.button_en:hover {
+    background: black;
+    color: black;
+}
+
+
+
+.button_dark {
+    width: 100px;
+    font-size: 14px;
+    padding: 10px;
+    border: none;
+    background: #915C12;
+    color: #fff;
+    cursor: pointer;
+}
+
+.button_dark > a {
+    color: #fff;
+}
+
+.button_dark:hover {
+    background: black;
+}

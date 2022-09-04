@@ -1,0 +1,44 @@
+/* ------ MAP  ------ */
+
+
+.map {
+    margin-top: 100px;
+}
+
+
+.span_map {
+    margin-bottom: 80px;
+}
+
+.map_post {
+    color: #fff; 
+    padding: 10px;
+}
+
+.map_header {
+    font-weight: bold; 
+    font-size: 16px; 
+}
+
+.map_text {
+    text-align: justify; 
+    font-size: 16px; 
+    margin-top: 20px;
+    color: #929292;
+}
+
+.map_box {
+	margin-left: -12px;
+}
+
+/*  btn-orange  */
+.btn-orange {
+    background-color: #915C12;
+    border-bottom:2px solid #915C12;
+    color:#915C12;
+}
+
+.btn-orange:hover, .btn-orange:focus, .btn-orange:active, .btn-orange.active, .open .dropdown-toggle.btn-orange {
+    background-color: #915C12;
+    color:#915C12;
+}
